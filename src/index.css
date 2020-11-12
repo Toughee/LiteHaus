@@ -5,9 +5,67 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #999;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Litemenu-bar {
+	display:inline-block;
+	background-color: black;
+	height: 70%; 
+	padding: 10px;
+	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+}
+
+.Lite-panel-label{
+	color: white;
+	margin: 5px;
+	font-family: 'Helvetica';
+	padding: 10px;
+}
+
+h6 {
+	color: white;
+}
+
+
+/*
+_______________________________________
+
+		Styles for Interior design
+_______________________________________
+*/
+
+.houseInterior {
+	height: 250px;
+  	width: 300px;
+  	background-color: #ededed;
+}
+
+.First-room {
+	height: 50px;
+  width: 75px;
+  	border-bottom: 1px thin #939292; 
+  	border-right: 1px thin #939292;
+}
+
+.Second-room {
+	height: 50px;
+  width: 75px;
+  	border-bottom: 1px thin #939292; 
+  	border-left: 1px thin #939292;
+}
+
+.Light-Bulb{
+	height: 15px;
+  	width: 15px;
+  	background-color: #555;
+  	border-radius: 50%;
 }
