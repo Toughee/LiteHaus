@@ -1,7 +1,6 @@
 import React from 'react';
 
 
-
 function LiteMenu() {
 	return (
 		<div className="Litemenu-bar">
