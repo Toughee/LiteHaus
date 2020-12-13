@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import PropTypes from 'prop-types';
 import reportWebVitals from './reportWebVitals';
 
 function Litebox() {
@@ -23,17 +24,16 @@ function Litebox() {
 				<i className='fas fa-lightbulb'></i>
 			</span>
 			<br />
-			<span className="Lite-panel-label">Main 
+			<span className="Lite-panel-label">Living room 
 				<button className=
 					"Light-Tab">
 					Toggle
 				</button>
 				<i className='fas fa-lightbulb'></i>
-				
 			</span>
 
 			<br />
-			<span className="Lite-panel-label">Main 
+			<span className="Lite-panel-label">Bedroom Light 
 				<button className="Light-Tab">Toggle</button>
 				<i className='fas fa-lightbulb'></i>
 			</span>
@@ -41,6 +41,35 @@ function Litebox() {
 
 	);
 }
+
+// function HouseProp() {
+// 	isOn ? isOff
+// }
+
+// const OutsideLight {
+
+// }
+
+// const PatioLight {
+
+// }
+
+// const LawnLights {
+
+// }
+
+// const BedroomLight {
+
+// }
+
+// const LivingRoomLight {
+
+// }
+
+
+
+
+// prop types for every one
 
 ReactDOM.render(
     <Litebox />,
