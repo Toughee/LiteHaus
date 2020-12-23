@@ -1,0 +1,35 @@
+
+.fa-lightbulb {
+  font-size: 35px;
+  color: grey;
+}
+
+.Litemenu-bar {
+	display:inline-block;
+	background-color: black;
+	height: 100%; 
+	padding: 10px;
+	position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.Litemenu-Label {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Lite-panel-label{
+	color: white;
+  font-size: 20px;
+	margin: 5px;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+h6 {
+	color: white;
+  font-size: 35px;
+  margin: 5px;
+  text-align: center;
+}

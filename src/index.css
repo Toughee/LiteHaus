@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: #035413;
+  background-color: #DEDEDE;
 }
 
 .fa-lightbulb {
@@ -21,6 +21,10 @@ body {
   left: 0;
 }
 
+.Litemenu-Label {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .Lite-panel-label{
 	color: white;
   font-size: 20px;
@@ -32,9 +36,7 @@ body {
 h6 {
 	color: white;
   font-size: 35px;
-  font-family: 'Copper Std';
   margin: 5px;
-  font-family: 'Abril Fatface', cursive;
   text-align: center;
 }
 
@@ -45,15 +47,15 @@ _______________________________________
 _______________________________________
 */
 
-.houseInterior {
+/*.houseInterior {
 	height: 250px;
   width: 300px;
   background-color: #ededed;
   top: 50%;
   left: 50%;
-}
+}*/
 
-.First-room {
+/*.First-room {
 	height: 50px;
   width: 75px;
   border-bottom: 1px thin #939292; 
@@ -72,8 +74,34 @@ _______________________________________
   width: 15px;
   background-color: #555;
   border-radius: 50%;
-}
+}*/
 
 .Light-Tab {
   margin: 5px;
 }
+
+.HouseProp {
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.testlite {
+  display: block; 
+  background-color: yellow;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  width: 126px;
+  height: 180px;
+}
+
+
+
