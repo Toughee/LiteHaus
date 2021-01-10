@@ -1,10 +1,40 @@
+.Litemenu-Label {
+  	left: 47%;
+  	font-family: 'Open Sans', sans-serif;
+  	position: fixed;
+  	font-size: 2.7rem;
+}
+
 .HouseProp {
-  background-color: black;
-  width: 300px;
-  height: 250px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
+	background-color: #616161;
+  	width: 300px;
+  	height: 250px;
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.RoofProp {
+	position: fixed;
+  	top: 50%;
+  	left: 50%; 
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 82px 142.0px 82px;
+	border-color: transparent transparent #007bff transparent;	
+}
+
+.Lawn-light-props {
+
+}
+
+.Street-light-props {
+
+}
+
+.Door-light-prop {
+	
 }

@@ -11,13 +11,13 @@ body {
 }
 
 .Litemenu-bar {
-	display:inline-block;
+	/*display: inline;*/
+  list-style-type: none;
 	background-color: black;
-	height: 100%; 
 	padding: 10px;
 	position: fixed;
   z-index: 1;
-  top: 0;
+  bottom: 0;
   left: 0;
 }
 
@@ -39,42 +39,6 @@ h6 {
   margin: 5px;
   text-align: center;
 }
-
-/*
-_______________________________________
-
-		Styles for Interior design
-_______________________________________
-*/
-
-/*.houseInterior {
-	height: 250px;
-  width: 300px;
-  background-color: #ededed;
-  top: 50%;
-  left: 50%;
-}*/
-
-/*.First-room {
-	height: 50px;
-  width: 75px;
-  border-bottom: 1px thin #939292; 
-  border-right: 1px thin #939292;
-}
-
-.Second-room {
-	height: 50px;
-  width: 75px;
-  border-bottom: 1px thin #939292; 
-  border-left: 1px thin #939292;
-}
-
-.Light-Bulb{
-	height: 15px;
-  width: 15px;
-  background-color: #555;
-  border-radius: 50%;
-}*/
 
 .Light-Tab {
   margin: 5px;

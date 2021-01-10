@@ -9,10 +9,12 @@ import reportWebVitals from './reportWebVitals';
 class Litebox extends React.Component {
 	render(){
 		return (
-			<div>
-				// <LiteMenu />
-				<HouseRender />
-			</div>
+			<React.Fragment>
+				<div>
+					<LiteMenu />
+					<HouseRender />
+				</div>
+			</React.Fragment>
 		);
 	}
 }
