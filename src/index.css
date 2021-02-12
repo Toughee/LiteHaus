@@ -12,13 +12,14 @@ body {
 
 .Litemenu-bar {
 	/*display: inline;*/
-  list-style-type: none;
+  /*list-style-type: none;*/
 	background-color: black;
 	padding: 10px;
-	position: fixed;
+	/*position: fixed;*/
   z-index: 1;
-  bottom: 0;
+  top: 0;
   left: 0;
+  height: 100%;
 }
 
 .Litemenu-Label {
@@ -44,7 +45,7 @@ h6 {
   margin: 5px;
 }
 
-.HouseProp {
+/*.HouseProp {
   background-color: black;
   width: 300px;
   height: 250px;
@@ -65,7 +66,7 @@ h6 {
   margin-left: -100px;
   width: 126px;
   height: 180px;
-}
+}*/
 
 
 

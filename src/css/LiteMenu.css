@@ -1,18 +1,12 @@
-
-.fa-lightbulb {
-	font-size: 35px;
-	color: grey;
-}
-
 .Litemenu-bar {
 	background-color: black;
-	list-style-type: none;
+	/*list-style-type: none;*/
   	bottom: 0;
-	padding: 10px;
-	position: fixed;
+	/*padding: 10px;*/
+	/*position: fixed;*/
   	z-index: 1;
   	left: 0;
-  	width: 100%;
+  	height: 100%;
 }
 
 /*.Litemenu-Label {
@@ -25,7 +19,7 @@
 	margin: 5px;
 	font-family: 'Oswald', sans-serif;
 	padding: 10px;
-	display:inline;
+	/*display:inline;*/
 }
 
 h6 {
