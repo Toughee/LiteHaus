@@ -12,7 +12,6 @@ class Litebox extends React.Component {
 			<React.Fragment>
 				<div>
 					<LiteMenu />
-					<HouseRender />
 				</div>
 			</React.Fragment>
 		);
