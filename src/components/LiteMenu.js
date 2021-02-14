@@ -7,13 +7,16 @@ function LiteMenu() {
 	return (
 		<div className="Litemenu-bar">
 		
+			<h1>LiteHaus</h1>
+
 			<h6>Outdoors</h6>
 
 			<i className='fas fa-warehouse'></i>
+			
 			<span className="Lite-panel-label"> Garage door 
 				<button className="Light-Tab"> On/Off</button>
 			</span>
-		
+					
 
 			<i className='fas fa-lightbulb'></i>
 			<span className="Lite-panel-label">Backyard 
@@ -69,6 +72,7 @@ function LiteMenu() {
 				<button className="Light-Tab">On/Off</button>
 			</span>
 
+
 		</div>
 	);
 }
@@ -109,5 +113,9 @@ export default LiteMenu;
 // <i class="fa fa-bath" style="font-size:48px;color:red"></i>
 //
 //
-//
+//    <div class="onoffswitch">
+    //     <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+    //     <label class="onoffswitch-label" for="myonoffswitch"></label>
+    // </div>
+
 //

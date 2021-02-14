@@ -2,24 +2,12 @@
 
 
 body {
-  background-color: #DEDEDE;
+  background-color: yellow;
 }
 
 .fa-lightbulb {
   font-size: 35px;
   color: grey;
-}
-
-.Litemenu-bar {
-	/*display: inline;*/
-  /*list-style-type: none;*/
-	background-color: black;
-	padding: 10px;
-	/*position: fixed;*/
-  z-index: 1;
-  top: 0;
-  left: 0;
-  height: 100%;
 }
 
 .Litemenu-Label {
