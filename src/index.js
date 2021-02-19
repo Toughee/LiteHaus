@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import LiteMenu from './components/LiteMenu';
-import PropTypes from 'prop-types';
 import reportWebVitals from './reportWebVitals';
 
 class Litebox extends React.Component {
