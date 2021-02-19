@@ -1,48 +1,58 @@
 .Litemenu-bar {
-	background-color: grey;
-/*  	bottom: 0;
-  	left: 0;
-	position: fixed;*/
-  	z-index: 1;
-  	
-  	height: 120%;
-  	width: 25%;
-  	margin: 10px 0px 0px 70px;
-  	padding: 10px 50px 0px 50px;
-  	border-radius: 10px;
-  	box-shadow: 10px 10px 5px #000000;
+  background-color: grey;
+  z-index: 1;
+  height: 120%;
+  width: 30%;
+  margin: 10px 0px 0px 70px;
+  padding: 5px 50px 65px 50px;
+  border-radius: 10px;
+  box-shadow: 7px 10px 4px #0C0C0C;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
 
-/*.Litemenu-Label {
-	font-family: 'Open Sans', sans-serif;
-}*/
+.Light-Tab {
+  background-color: yellow; /* gray */
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
 
 .Lite-panel-label{
-	color: white;
-  	font-size: 20px;
+	color: #FFFFFF;
+  font-size: 20px;
 	margin: 5px;
 	font-family: 'Oswald', sans-serif;
-	padding: 10px;
-	/*display:inline;*/
+	padding: 0px;
+
+}
+
+.fas {
+  margin: 5px;
+  padding: 1px;
 }
 
 h6 {
-	color: white;
-  	font-size: 20px;
-  	margin: 5px;
-  	text-align: center;
-  	font-family: 'Helvetica';
+	color: #FFFFFF;
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1 {
-	color: white;
+	color: #FFFFFF;
+  font-size: 3rem;
 	text-align: center;
+  font-family: 'Comfortaa', cursive;
 }
-
-button {
-	padding: 1px;
-}
-
 
 .onoffswitch {
 	position: relative; width: 40px;
@@ -59,28 +69,33 @@ button {
 	display: block; overflow: hidden; cursor: pointer;
 	height: 18px; padding: 0; line-height: 18px;
 	border: 0px solid #FFFFFF; border-radius: 23px;
-        background-color: #9E9E9E;
-    }
-    .onoffswitch-label:before {
-        content: "";
-        display: block; width: 23px; margin: -2.5px;
-        background: #FFFFFF;
-        position: absolute; top: 0; bottom: 0;
-        right: 18px;
-        border-radius: 23px;
-        box-shadow: 0 6px 12px 0px #757575;
-    }
-    .onoffswitch-checkbox:checked + .onoffswitch-label {
-        background-color: #42A5F5;
-    }
-    .onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-       border-color: #42A5F5;
-    }
-    .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-        margin-left: 0;
-    }
-    .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-        right: 0px; 
-        background-color: #2196F3; 
-        box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
-    }
+  background-color: #9E9E9E;
+}
+
+.onoffswitch-label:before {
+  content: "";
+  display: block; width: 23px; margin: -2.5px;
+  background: #FFFFFF;
+  position: absolute; top: 0; bottom: 0;
+  right: 18px;
+  border-radius: 23px;
+  box-shadow: 0 6px 12px 0px #757575;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #42A5F5;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: #42A5F5;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  right: 0px; 
+  background-color: #2196F3; 
+  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
+}

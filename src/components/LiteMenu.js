@@ -1,77 +1,112 @@
-import React from 'react';
+import React, {useState} from 'react';
+//
+//import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+//
 
 import '../css/LiteMenu.css';
 
+// const [RoomLites] = useState [(
+// toggle isOn
+// Garage Door
+
+// const state [litesection, setlite]
+
+// function  
+// onclick
+
+// Backyard
+// Front Door
+// Living Room
+// Kitchen 
+// Bathroom
+// Master Suite
+// Suite Bathroom
+// Guest Room
+// Entertainment Room
+// )] 
+
 
 function LiteMenu() {
+
+
 	return (
 		<div className="Litemenu-bar">
 		
 			<h1>LiteHaus</h1>
 
 			<h6>Outdoors</h6>
-
-			<i className='fas fa-warehouse'></i>
 			
-			<span className="Lite-panel-label"> Garage door 
-				<button className="Light-Tab"> On/Off</button>
+			<span className="Lite-panel-label"> 
+				<i className='fas fa-warehouse'></i>
+				  Garage door 
+				<button className="Light-Tab onoffswitch"> On</button>
 			</span>
-					
-
-			<i className='fas fa-lightbulb'></i>
-			<span className="Lite-panel-label">Backyard 
-				<button className="Light-Tab">On/Off</button>
+			
+			<span className="Lite-panel-label">
+				<i className='fas fa-campground'></i>
+				  Backyard 
+				<button className="Light-Tab">Off</button>
 
 			</span>
-
-			<i className='fas fa-lightbulb'></i>
-			<span className="Lite-panel-label">Front Lawn 
-				<button className="Light-Tab">On/Off</button>
+			<br />
+			<span className="Lite-panel-label">
+				<i className='fas fa-door-closed'></i>
+				  Front Door 
+				<button className="Light-Tab">On</button>
 				
 			</span>
 
 
 			<h6>Living rooms</h6>
 
-			<i className='fas fa-lightbulb'></i>
-			<span className="Lite-panel-label">Living room 
-				<button className="Light-Tab">On/Off</button>
+			
+			<span className="Lite-panel-label">
+				<i className='fas fa-television'></i>
+				  Living room 
+				<button className="Light-Tab">On</button>
 			</span>
 
-			<i className='fas fa-lightbulb'></i>
-			<span className="Lite-panel-label">Kitchen
-				<button className="Light-Tab">On/Off</button>
-
+			
+			<span className="Lite-panel-label">
+				<i className='fas fa-cookie'></i>
+				 Kitchen
+				<button className="Light-Tab">Off</button>
 			</span>
+			
+			<br />
 
-			<i className='fas fa-bath'></i>
-			<span className="Lite-panel-label">Bathroom
-				<button className="Light-Tab">On/Off</button>
-
+			<span className="Lite-panel-label">
+				<i className='fas fa-bath'></i>
+				 Bathroom
+				<button className="Light-Tab">Off</button>
 			</span>
+			
 		
 			<h6>Bedrooms</h6>
 
-			<i className='fas fa-bed'></i>
-			<span className="Lite-panel-label">Master Suite
-				<button className="Light-Tab">On/Off</button>
+			
+			<span className="Lite-panel-label">
+				<i className='fas fa-bed'></i>
+				 Master Suite
+				<button className="Light-Tab">On</button>
 			</span>
 
-			<i className='fas fa-bed'></i>
-			<span className="Lite-panel-label">Master Suite Bathroom
-				<button className="Light-Tab">On/Off</button>
-			</span>
-		
-			<i className='fas fa-bed'></i>
-			<span className="Lite-panel-label">Guest Room 
-				<button className="Light-Tab">On/Off</button>
+			
+			<span className="Lite-panel-label">
+				<i className='fas fa-bath'></i>
+				 Suite Bathroom
+				<button className="Light-Tab">Off</button>
 			</span>
 
-			<i className='fas fa-lightbulb'></i>
-			<span className="Lite-panel-label">Entertainment room 
-				<button className="Light-Tab">On/Off</button>
+			<br />
+			
+			<span className="Lite-panel-label">
+				<i className='fas fa-bed'></i>
+				 Guest Room 
+				<button className="Light-Tab">Off</button>
 			</span>
 
+			<br />
 
 		</div>
 	);
