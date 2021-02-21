@@ -1,16 +1,23 @@
 .Light-Tab {
-	/*padding: 5px;
-  	margin: 0;
-  	text-align: center;
-  	text-decoration: none;
-  */
     background-color: #4CAF50; /* Green */
 	color: white;
 	padding: 5px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 20px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+button {
+	background-color: #4CAF50; /* Green */
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
 	margin: 20px;
 	cursor: pointer;
 }

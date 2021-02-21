@@ -16,7 +16,7 @@ body {
 
 .Lite-panel-label{
 	color: white;
-  font-size: 20px;
+  font-size: 30px;
 	margin: 5px;
 	font-family: 'Oswald', sans-serif;
 	padding: 10px;
@@ -32,29 +32,3 @@ h6 {
 .Light-Tab {
   margin: 5px;
 }
-
-/*.HouseProp {
-  background-color: black;
-  width: 300px;
-  height: 250px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-
-.testlite {
-  display: block; 
-  background-color: yellow;
-  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-  width: 126px;
-  height: 180px;
-}*/
-
-
-
