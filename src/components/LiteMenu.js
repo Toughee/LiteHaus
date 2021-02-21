@@ -1,8 +1,4 @@
 import React, {useState} from 'react';
-//
-//import '../node_modules/font-awesome/css/font-awesome.min.css'; 
-//
-
 import '../css/LiteMenu.css';
 
 // const [RoomLites] = useState [(
@@ -11,99 +7,126 @@ import '../css/LiteMenu.css';
 
 // const state [litesection, setlite]
 
-// function  
-// onclick
+// 
+// 
+// class LiteSwitches extends component
+// { 
+//	state =
 
-// Backyard
-// Front Door
-// Living Room
-// Kitchen 
-// Bathroom
-// Master Suite
-// Suite Bathroom
-// Guest Room
-// Entertainment Room
+//
+// Backyard: 
+// Front Door: 
+// Living Room: 
+// Kitchen: 
+// Bathroom:
+// Master Suite:
+// Suite Bathroom:
+// Guest Room:
+// Entertainment Room:
 // )] 
 
 
+// render 
+
 function LiteMenu() {
-
-
-	return (
+//const lite =  toggle ? 'On' : 'Off'
+return (
 		<div className="Litemenu-bar">
 		
 			<h1>LiteHaus</h1>
-
-			<h6>Outdoors</h6>
 			
 			<span className="Lite-panel-label"> 
 				<i className='fas fa-warehouse'></i>
-				  Garage door 
-				<button className="Light-Tab onoffswitch"> On</button>
+				  Garage door:
+				<button className="Light-Tab onoffswitch"> 
+{/*onClick = [{ this.toggle('')}}]*/}
+				
+				On</button>
 			</span>
+			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-campground'></i>
-				  Backyard 
-				<button className="Light-Tab">Off</button>
+				  Backyard:
+				<button className="Light-Tab">
+
+{/*onClick = [{ this.toggle('')}}]*/}
+
+				Off</button>
 
 			</span>
 			<br />
 			<span className="Lite-panel-label">
 				<i className='fas fa-door-closed'></i>
-				  Front Door 
-				<button className="Light-Tab">On</button>
+				  Front Door: 
+				<button className="Light-Tab">
+{/*onClick = [{ this.toggle('')}}]*/}
+
+				On</button>
 				
 			</span>
 
-
-			<h6>Living rooms</h6>
-
+			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-television'></i>
-				  Living room 
-				<button className="Light-Tab">On</button>
+				  Living room:  
+				<button className="Light-Tab">
+{/*onClick = [{ this.toggle('')}}]*/}
+				On</button>
 			</span>
+			<br />
 
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-cookie'></i>
-				 Kitchen
-				<button className="Light-Tab">Off</button>
+				 Kitchen: 
+				<button className="Light-Tab">
+{/*onClick = [{ this.toggle('')}}]*/}
+
+				Off</button>
 			</span>
 			
 			<br />
 
 			<span className="Lite-panel-label">
 				<i className='fas fa-bath'></i>
-				 Bathroom
-				<button className="Light-Tab">Off</button>
+				 Bathroom: 
+				<button className="Light-Tab">
+{/*onClick = [{ this.toggle('')}}]*/}
+				Off</button>
 			</span>
 			
-		
-			<h6>Bedrooms</h6>
-
-			
+			<br />
 			<span className="Lite-panel-label">
 				<i className='fas fa-bed'></i>
-				 Master Suite
+				 Master Suite: 
+{/*onClick = [{ this.toggle('')}}]*/}
+
 				<button className="Light-Tab">On</button>
 			</span>
 
+			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-bath'></i>
-				 Suite Bathroom
-				<button className="Light-Tab">Off</button>
+				 Suite Bathroom: 
+				<button className="Light-Tab">
+{/*onClick = [{ this.toggle('')}}]*/}
+				Off</button>
 			</span>
 
 			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-bed'></i>
-				 Guest Room 
-				<button className="Light-Tab">Off</button>
+				 Guest Room:  
+				<button className="Light-Tab">
+
+{/*onClick = [{ this.toggle('')}}]*/}
+				Off</button>
+
+
 			</span>
 
 			<br />
@@ -120,31 +143,6 @@ export default LiteMenu;
 
 
 //
-//
-// Outdoors
-// Front yarn
-// backyard
-// side
-// Garage front 
-
-//
-// Garage
-//
-
-// Living room lights
-// Kitchen
-// Living room
-// Bathroom
-
-// Bedrooms
-// Bedroom 3-rooms
-// Master suite
-// Bathroom
-// Guest
-// Guest
-// 
-
-//
 // <i class="fa fa-bath" style="font-size:48px;color:red"></i>
 //
 //
@@ -154,3 +152,77 @@ export default LiteMenu;
     // </div>
 
 //
+
+// <h6>Outdoors</h6>
+			
+// 			<span className="Lite-panel-label"> 
+// 				<i className='fas fa-warehouse'></i>
+// 				  Garage door 
+// 				<button className="Light-Tab onoffswitch"> On</button>
+// 			</span>
+			
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-campground'></i>
+// 				  Backyard 
+// 				<button className="Light-Tab">Off</button>
+
+// 			</span>
+// 			<br />
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-door-closed'></i>
+// 				  Front Door 
+// 				<button className="Light-Tab">On</button>
+				
+// 			</span>
+
+
+// 			<h6>Living rooms</h6>
+
+			
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-television'></i>
+// 				  Living room 
+// 				<button className="Light-Tab">On</button>
+// 			</span>
+
+			
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-cookie'></i>
+// 				 Kitchen
+// 				<button className="Light-Tab">Off</button>
+// 			</span>
+			
+// 			<br />
+
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-bath'></i>
+// 				 Bathroom
+// 				<button className="Light-Tab">Off</button>
+// 			</span>
+			
+		
+// 			<h6>Bedrooms</h6>
+
+			
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-bed'></i>
+// 				 Master Suite
+// 				<button className="Light-Tab">On</button>
+// 			</span>
+
+			
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-bath'></i>
+// 				 Suite Bathroom
+// 				<button className="Light-Tab">Off</button>
+// 			</span>
+
+// 			<br />
+			
+// 			<span className="Lite-panel-label">
+// 				<i className='fas fa-bed'></i>
+// 				 Guest Room 
+// 				<button className="Light-Tab">Off</button>
+// 			</span>
+
+// 			<br />
