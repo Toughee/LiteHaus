@@ -1,35 +1,40 @@
 import React, {useState} from 'react';
 import '../css/LiteMenu.css';
 
-// const [RoomLites] = useState [(
-// toggle isOn
-// Garage Door
-
-// const state [litesection, setlite]
-
-// 
-// 
-// class LiteSwitches extends component
-// { 
-//	state =
-
-//
-// Backyard: 
-// Front Door: 
-// Living Room: 
-// Kitchen: 
-// Bathroom:
-// Master Suite:
-// Suite Bathroom:
-// Guest Room:
-// Entertainment Room:
-// )] 
-
-
-// render 
-
 function LiteMenu() {
-//const lite =  toggle ? 'On' : 'Off'
+//const LiteStatus = value ? 'On' : 'Off';
+
+// class LiteSwitches extends React.Component { 
+//  state = {
+// 	garageDoor: true,
+// 	backyard: false,
+// 	frontDoor: true,
+// 	livingRoom: true,
+// 	kitchen: false,
+// 	bathroom: false,
+// 	masterSuite: true,
+// 	suiteBathroom: false,
+// 	guestRoom: false
+// 	};
+
+// 	toggle
+// 		this.setState
+// }; 
+
+// render() {
+// 	const {
+// 		garageDoor,
+//   		backyard,
+//   		frontDoor,
+//   		livingRoom,
+//   		kitchen,
+//   		bathroom,
+//   		masterSuite,
+//   		suiteBathroom,
+//   		guestRoom
+// 	} = this.state;
+
+
 return (
 		<div className="Litemenu-bar">
 		
