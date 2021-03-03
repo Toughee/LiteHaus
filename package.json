@@ -1,6 +1,7 @@
 {
   "name": "LiteHaus",
-  "version": "0.3.4",
+  "version": "0.4.0",
+  "LICENSE": "MIT",
   "homepage": "https://toughee.github.io/LiteHaus/",
   "private": true,
   "dependencies": {

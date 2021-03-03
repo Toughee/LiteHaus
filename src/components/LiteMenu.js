@@ -1,38 +1,40 @@
 import React, {useState} from 'react';
 import '../css/LiteMenu.css';
 
-function LiteMenu() {
-//const LiteStatus = value ? 'On' : 'Off';
+function LiteMenu(LiteSetting) {
+	const LiteStatus = LiteSetting ? 'On' : 'Off';
 
-// class LiteSwitches extends React.Component { 
-//  state = {
-// 	garageDoor: true,
-// 	backyard: false,
-// 	frontDoor: true,
-// 	livingRoom: true,
-// 	kitchen: false,
-// 	bathroom: false,
-// 	masterSuite: true,
-// 	suiteBathroom: false,
-// 	guestRoom: false
-// 	};
+	// class LiteSwitches extends React.Component { 
+	// 	state = {
+	// 		garageDoor: true,
+	// 		backyard: false,
+	// 		frontDoor: true,
+	// 		livingRoom: true,
+	// 		kitchen: false,
+	// 		bathroom: false,
+	// 		masterSuite: true,
+	// 		suiteBathroom: false,
+	// 		guestRoom: false
+	// 	};
 
-// 	toggle
-// 		this.setState
-// }; 
+	// 	toggle = room => {
+	// 		this.setState(prevState => ({
+	// 		[room]: !prevState[room]
+	// 		}));
+	// 	}; 
 
-// render() {
-// 	const {
-// 		garageDoor,
-//   		backyard,
-//   		frontDoor,
-//   		livingRoom,
-//   		kitchen,
-//   		bathroom,
-//   		masterSuite,
-//   		suiteBathroom,
-//   		guestRoom
-// 	} = this.state;
+	// render() {
+	// 	const {
+	// 		garageDoor,
+	//   		backyard,
+	//   		frontDoor,
+	//   		livingRoom,
+	//   		kitchen,
+	//   		bathroom,
+	//   		masterSuite,
+	//   		suiteBathroom,
+	//   		guestRoom
+	// 	} = this.state;
 
 
 return (
@@ -42,54 +44,42 @@ return (
 			
 			<span className="Lite-panel-label"> 
 				<i className='fas fa-warehouse'></i>
-				  Garage door:
-				<button className="Light-Tab onoffswitch"> 
-{/*onClick = [{ this.toggle('')}}]*/}
-				
-				On</button>
+				  Garage door: 
+				<button onClick = {() => this.toggle('garageDoor')}>
+				On{/*LiteStatus(garageDoor)*/}</button>
 			</span>
 			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-campground'></i>
-				  Backyard:
-				<button className="Light-Tab">
-
-{/*onClick = [{ this.toggle('')}}]*/}
-
-				Off</button>
-
+				  Backyard: 
+				<button onClick = {() => this.toggle('backyard')}>
+				Off {/*LiteStatus(backyard)*/}</button>
 			</span>
 			<br />
+
 			<span className="Lite-panel-label">
 				<i className='fas fa-door-closed'></i>
-				  Front Door: 
-				<button className="Light-Tab">
-{/*onClick = [{ this.toggle('')}}]*/}
-
-				On</button>
-				
+				  Front Door:  
+				<button onClick = {() => this.toggle('frontDoor')}>
+				On {/*LiteStatus(frontDoor)*/}</button>
 			</span>
 
 			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-television'></i>
-				  Living room:  
-				<button className="Light-Tab">
-{/*onClick = [{ this.toggle('')}}]*/}
-				On</button>
+				  Living room:   
+				<button onClick = {() => this.toggle('livingRoom')}>
+				On {/*LiteStatus(livingRoom:)*/}</button>
 			</span>
 			<br />
-
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-cookie'></i>
-				 Kitchen: 
-				<button className="Light-Tab">
-{/*onClick = [{ this.toggle('')}}]*/}
-
-				Off</button>
+				 Kitchen:  
+				<button onClick = {() => this.toggle('kitchen')}>
+				Off {/*LiteStatus(kitchen)*/}</button>
 			</span>
 			
 			<br />
@@ -97,18 +87,16 @@ return (
 			<span className="Lite-panel-label">
 				<i className='fas fa-bath'></i>
 				 Bathroom: 
-				<button className="Light-Tab">
-{/*onClick = [{ this.toggle('')}}]*/}
-				Off</button>
+				<button onClick = {() => this.toggle('bathroom')}>
+				Off {/*LiteStatus(bathroom)*/}</button>
 			</span>
 			
 			<br />
 			<span className="Lite-panel-label">
 				<i className='fas fa-bed'></i>
-				 Master Suite: 
-{/*onClick = [{ this.toggle('')}}]*/}
-
-				<button className="Light-Tab">On</button>
+				 Master Suite:
+				<button onClick = {() => this.toggle('masterSuite')}>
+				Off {/*LiteStatus(masterSuite)*/} </button>
 			</span>
 
 			<br />
@@ -116,27 +104,22 @@ return (
 			<span className="Lite-panel-label">
 				<i className='fas fa-bath'></i>
 				 Suite Bathroom: 
-				<button className="Light-Tab">
-{/*onClick = [{ this.toggle('')}}]*/}
-				Off</button>
+				<button onClick = {() => this.toggle('suiteBathroom')}>
+				Off {/*LiteStatus(suiteBathroom)*/}</button>
 			</span>
 
 			<br />
 			
 			<span className="Lite-panel-label">
 				<i className='fas fa-bed'></i>
-				 Guest Room:  
-				<button className="Light-Tab">
-
-{/*onClick = [{ this.toggle('')}}]*/}
-				Off</button>
-
-
+				 Guest Room: 
+				<button onClick = {() => this.toggle('guestRoom')}>
+				Off {/*LiteStatus(guestRoom)*/}  </button>
 			</span>
-
 			<br />
-
 		</div>
-	);
-}
+		);
+	}
+
+
 export default LiteMenu;

@@ -17,8 +17,6 @@ class Litebox extends React.Component {
 }
 
 
-
-
 ReactDOM.render(
     <Litebox />,
   document.getElementById('root')
