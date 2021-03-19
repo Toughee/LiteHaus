@@ -23,6 +23,7 @@
   font-size: 20px;
   margin: 5px;
   cursor: pointer;
+  border-radius: 20%; 
 }
 
 .Lite-panel-label{
@@ -62,8 +63,9 @@ h6 {
 
 h1 {
 	color: #FFFFFF;
-  font-size: 3rem;
+  font-size: 3.5rem;
 	text-align: center;
+  padding: -10px;
   font-family: 'Comfortaa', cursive;
 }
 /*
