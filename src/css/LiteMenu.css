@@ -12,20 +12,6 @@
   margin-top: auto;
 }
 
-.Light-Tab {
-  background-color: yellow; /* gray */
-  border: none;
-  color: white;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 5px;
-  cursor: pointer;
-  border-radius: 20%; 
-}
-
 .Lite-panel-label{
 	color: #FFFFFF;
   font-size: 30px;
@@ -38,7 +24,7 @@
 button { 
   background-color: yellow; /* gray */
   border: none;
-  color: white;
+  color: black;
   padding: 5px;
   text-align: center;
   text-decoration: none;
