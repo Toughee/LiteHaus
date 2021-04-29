@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LiteHaus/static/css/main.aacbabc7.chunk.css",
-    "main.js": "/LiteHaus/static/js/main.626d9cf6.chunk.js",
-    "main.js.map": "/LiteHaus/static/js/main.626d9cf6.chunk.js.map",
+    "main.css": "/LiteHaus/static/css/main.48808c5a.chunk.css",
+    "main.js": "/LiteHaus/static/js/main.0ab7db27.chunk.js",
+    "main.js.map": "/LiteHaus/static/js/main.0ab7db27.chunk.js.map",
     "runtime-main.js": "/LiteHaus/static/js/runtime-main.59ab333d.js",
     "runtime-main.js.map": "/LiteHaus/static/js/runtime-main.59ab333d.js.map",
     "static/js/2.041d23b2.chunk.js": "/LiteHaus/static/js/2.041d23b2.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8ba41e7c.chunk.js": "/LiteHaus/static/js/3.8ba41e7c.chunk.js",
     "static/js/3.8ba41e7c.chunk.js.map": "/LiteHaus/static/js/3.8ba41e7c.chunk.js.map",
     "index.html": "/LiteHaus/index.html",
-    "static/css/main.aacbabc7.chunk.css.map": "/LiteHaus/static/css/main.aacbabc7.chunk.css.map",
+    "static/css/main.48808c5a.chunk.css.map": "/LiteHaus/static/css/main.48808c5a.chunk.css.map",
     "static/js/2.041d23b2.chunk.js.LICENSE.txt": "/LiteHaus/static/js/2.041d23b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.59ab333d.js",
     "static/js/2.041d23b2.chunk.js",
-    "static/css/main.aacbabc7.chunk.css",
-    "static/js/main.626d9cf6.chunk.js"
+    "static/css/main.48808c5a.chunk.css",
+    "static/js/main.0ab7db27.chunk.js"
   ]
 }
