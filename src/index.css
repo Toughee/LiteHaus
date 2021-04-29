@@ -2,12 +2,7 @@
 
 
 body {
-  background-color: yellow;
-}
-
-.fa-lightbulb {
-  font-size: 35px;
-  color: grey;
+  background-color: #FFFF00;
 }
 
 .Litemenu-Label {
@@ -15,11 +10,10 @@ body {
 }
 
 .Lite-panel-label{
-	color: black;
   font-size: 30px;
-	margin: 5px;
+	margin: 0px;
 	font-family: 'Oswald', sans-serif;
-	padding: 10px;
+	padding: 5px;
 }
 
 h6 {

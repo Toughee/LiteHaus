@@ -1,6 +1,6 @@
 {
   "name": "LiteHaus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://toughee.github.io/LiteHaus/",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "font-awesome": "^4.7.0",
     "is-svg": "^3.0.0",
     "node-notifier": "^8.0.0",
+    "nodemon": "^2.0.7",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dev-utils": "^11.0.4",
