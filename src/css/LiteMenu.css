@@ -2,9 +2,9 @@
   background-color: grey;
   z-index: 1;
   height: 120%;
-  width: 30%;
+  width: 35%;
   margin: 10px 0px 0px 70px;
-  padding: 5px 50px 45px 50px;
+  padding: 20px 50px 20px 50px;
   border-radius: 10px;
   box-shadow: 7px 10px 4px #0C0C0C;
   margin-left: auto;
@@ -14,17 +14,15 @@
 
 .Lite-panel-label{
 	color: #FFFFFF;
-  font-size: 30px;
 	margin: 5px;
 	font-family: 'Oswald', sans-serif;
 	padding: 0px;
-
 }
 
 button { 
-  background-color: yellow; /* gray */
+  background-color: #FFFF00; 
   border: none;
-  color: black;
+  color: #000000;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -51,9 +49,22 @@ h1 {
 	color: #FFFFFF;
   font-size: 3.5rem;
 	text-align: center;
-  padding: -10px;
+  margin: 10px;
   font-family: 'Comfortaa', cursive;
 }
+
+cite {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*
+-------------------------------------
+          Eventual CSS ruleset for on/off switch
+-------------------------------------
+*/
+
 /*
 .onoffswitch {
 	position: relative; width: 40px;

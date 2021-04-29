@@ -46,9 +46,11 @@ class LiteSwitches extends React.Component {
 	<div className="Litemenu-bar">
 
 		<h1>LiteHaus</h1>
+
+		<br/>
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faWarehouse} />
-			Garage Door : 
+			 --Garage Door : 
 			<button onClick={() => this.toggle('garageDoor')}> 
 			{LiteMenu(garageDoor)}
 		</button>
@@ -58,7 +60,7 @@ class LiteSwitches extends React.Component {
 		
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faCampground} />
-			Backyard : 
+			 --Backyard : 
 			<button onClick={() => this.toggle('backyard')}> 
 			{LiteMenu(backyard)}
 		</button>
@@ -68,7 +70,7 @@ class LiteSwitches extends React.Component {
 		
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faDoorClosed} />
-			Front Door : 
+			 --Front Door : 
 			<button onClick={() => this.toggle('frontDoor')}> 
 			{LiteMenu(frontDoor)}
 		</button>
@@ -78,7 +80,7 @@ class LiteSwitches extends React.Component {
 		
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faTv} />
-			Living room : 
+			 --Living room : 
 			<button onClick={() => this.toggle('livingRoom')}> 
 			{LiteMenu(livingRoom)}
 		</button>
@@ -88,7 +90,7 @@ class LiteSwitches extends React.Component {
 
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faCookie} />
-			Kitchen: 
+			 --Kitchen: 
 			<button onClick={() => this.toggle('kitchen')}> 
 			{LiteMenu(kitchen)}
 		</button>
@@ -98,7 +100,7 @@ class LiteSwitches extends React.Component {
 
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faBath} />
-			Bathroom: 
+			 --Bathroom: 
 			<button onClick={() => this.toggle('bathroom')}> 
 			{LiteMenu(bathroom)}
 		</button>
@@ -108,7 +110,7 @@ class LiteSwitches extends React.Component {
 
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faBed} />
-			Master Bedroom: 
+			 --Master Bedroom: 
 			<button onClick={() => this.toggle('masterSuite')}> 
 			{LiteMenu(masterSuite)}
 		</button>
@@ -118,7 +120,7 @@ class LiteSwitches extends React.Component {
 
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faBed} />
-			Suite Bathroom: 
+			 --Suite Bathroom: 
 			<button onClick={() => this.toggle('suiteBathroom')}> 
 			{LiteMenu(suiteBathroom)}
 		</button>
@@ -128,7 +130,7 @@ class LiteSwitches extends React.Component {
 
 		<span className="Lite-panel-label"> 
 			<FontAwesomeIcon icon =  {faBed} />
-			Guest Room: 
+			 --Guest Room: 
 			<button onClick={() => this.toggle('guestRoom')}> 
 			{LiteMenu(guestRoom)}
 		</button>
