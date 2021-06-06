@@ -43,15 +43,20 @@ class LiteSwitches extends React.Component {
 
 
 	return (
-	<div className="Litemenu-bar">
+	<div className="Litemenu-bar container">
 
-		<h1>LiteHaus</h1>
+		<h1 className="appTitle">LiteHaus</h1>
 
-		<br/>
+		<br/> 
+		<div className="row">
 		<span className="Lite-panel-label"> 
-			<FontAwesomeIcon icon =  {faWarehouse} />
-			 --Garage Door : 
-			<button onClick={() => this.toggle('garageDoor')}> 
+
+			<button className= "rounded-circle" onClick={() => this.toggle('garageDoor')}>
+			<br/>
+
+			<FontAwesomeIcon icon =  {faWarehouse} /> 
+			<br/>
+			Garage Door :
 			{LiteMenu(garageDoor)}
 		</button>
 		</span>
@@ -59,29 +64,40 @@ class LiteSwitches extends React.Component {
 		<br/>
 		
 		<span className="Lite-panel-label"> 
+			<button className= "rounded-circle" onClick={() => this.toggle('backyard')}> 
 			<FontAwesomeIcon icon =  {faCampground} />
-			 --Backyard : 
-			<button onClick={() => this.toggle('backyard')}> 
+			<br/>
+			Backyard:
 			{LiteMenu(backyard)}
 		</button>
 		</span>
 
 		<br/>
 		
-		<span className="Lite-panel-label"> 
+		<span className="Lite-panel-label"> 			 
+			<button className= "rounded-circle" onClick={() => this.toggle('frontDoor')}> 
 			<FontAwesomeIcon icon =  {faDoorClosed} />
-			 --Front Door : 
-			<button onClick={() => this.toggle('frontDoor')}> 
+			<br/>
+			Front Door: 
 			{LiteMenu(frontDoor)}
 		</button>
 		</span>
 
 		<br/>
+
+		<hr/>
+		</div>
 		
+		<div className="row">
+
 		<span className="Lite-panel-label"> 
+			
+			 
+			<button className= "rounded-circle" onClick={() => this.toggle('livingRoom')}> 
+
 			<FontAwesomeIcon icon =  {faTv} />
-			 --Living room : 
-			<button onClick={() => this.toggle('livingRoom')}> 
+			<br/>
+			Living room : 
 			{LiteMenu(livingRoom)}
 		</button>
 		</span>
@@ -89,29 +105,40 @@ class LiteSwitches extends React.Component {
 		<br/>
 
 		<span className="Lite-panel-label"> 
+			<button className= "rounded-circle" onClick={() => this.toggle('kitchen')}> 
 			<FontAwesomeIcon icon =  {faCookie} />
-			 --Kitchen: 
-			<button onClick={() => this.toggle('kitchen')}> 
-			{LiteMenu(kitchen)}
+			<br/>
+			Kitchen: 
+			{LiteMenu (kitchen)}
 		</button>
 		</span>
 
 		<br/>
 
+
 		<span className="Lite-panel-label"> 
+			
+			<button className= "rounded-circle" onClick={() => this.toggle('bathroom')}> 
 			<FontAwesomeIcon icon =  {faBath} />
-			 --Bathroom: 
-			<button onClick={() => this.toggle('bathroom')}> 
+			<br/>
+			Bathroom:
 			{LiteMenu(bathroom)}
 		</button>
 		</span>
 
 		<br />
 
+		</div>
+
+		<div className="row">
+
 		<span className="Lite-panel-label"> 
+			
+			 
+			<button className= "rounded-circle" onClick={() => this.toggle('masterSuite')}> 
 			<FontAwesomeIcon icon =  {faBed} />
-			 --Master Bedroom: 
-			<button onClick={() => this.toggle('masterSuite')}> 
+			<br/>
+			Master Bedroom: 
 			{LiteMenu(masterSuite)}
 		</button>
 		</span>
@@ -119,9 +146,12 @@ class LiteSwitches extends React.Component {
 		<br />
 
 		<span className="Lite-panel-label"> 
-			<FontAwesomeIcon icon =  {faBed} />
-			 --Suite Bathroom: 
-			<button onClick={() => this.toggle('suiteBathroom')}> 
+			
+			 
+			<button className= "rounded-circle" onClick={() => this.toggle('suiteBathroom')}>
+			<FontAwesomeIcon icon =  {faBed} /> 
+			<br/>
+			Suite Bathroom: 
 			{LiteMenu(suiteBathroom)}
 		</button>
 		</span>
@@ -129,13 +159,23 @@ class LiteSwitches extends React.Component {
 		<br />
 
 		<span className="Lite-panel-label"> 
+			
+			
+			<button className= "rounded-circle" onClick={() => this.toggle('guestRoom')}> 
 			<FontAwesomeIcon icon =  {faBed} />
-			 --Guest Room: 
-			<button onClick={() => this.toggle('guestRoom')}> 
+			<br />
+			 Guest Room: 
 			{LiteMenu(guestRoom)}
 		</button>
 		</span>
-			
+		<hr  style={{
+    		color: '#000000',
+    		backgroundColor: '#000000',
+    		height: .5,
+    		borderColor : '#000000'
+		}}/>
+
+			</div>
 	</div>
 
 		);
