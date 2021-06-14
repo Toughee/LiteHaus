@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LiteHaus/static/css/main.a2cbe84f.chunk.css",
-    "main.js": "/LiteHaus/static/js/main.5f711986.chunk.js",
-    "main.js.map": "/LiteHaus/static/js/main.5f711986.chunk.js.map",
+    "main.js": "/LiteHaus/static/js/main.60e914fe.chunk.js",
+    "main.js.map": "/LiteHaus/static/js/main.60e914fe.chunk.js.map",
     "runtime-main.js": "/LiteHaus/static/js/runtime-main.cb5bb96c.js",
     "runtime-main.js.map": "/LiteHaus/static/js/runtime-main.cb5bb96c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/LiteHaus/static/css/2.4c97ca4f.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.ce5d256f.chunk.js",
     "static/css/main.a2cbe84f.chunk.css",
-    "static/js/main.5f711986.chunk.js"
+    "static/js/main.60e914fe.chunk.js"
   ]
 }
